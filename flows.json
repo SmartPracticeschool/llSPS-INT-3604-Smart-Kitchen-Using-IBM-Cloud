@@ -1,0 +1,1 @@
+[{"id":"dbe4c5fd.ef06e8","type":"function","z":"a203d31b.5ae1b","name":"Humidity","func":"global.set('humidity',msg.payload.Temperature)\nmsg.payload=msg.payload.Temperature\nreturn msg;\n","outputs":1,"noerr":0,"initialize":"","finalize":"","x":520,"y":400,"wires":[["5a0d8868.348848","5b769b64.efd504"]]}]
